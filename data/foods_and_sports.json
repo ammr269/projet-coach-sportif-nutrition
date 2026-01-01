@@ -1,0 +1,521 @@
+{
+  "foods": [
+    {
+      "name": "poulet (blanc, cuit)",
+      "calories_per_100g": 165,
+      "proteines_g": 31,
+      "glucides_g": 0,
+      "lipides_g": 3.6,
+      "fibres_g": 0,
+      "tags": ["protéines", "viande", "faible en gras"],
+      "allergenes": [],
+      "source": "USDA"
+    },
+    {
+      "name": "riz blanc (cuit)",
+      "calories_per_100g": 130,
+      "proteines_g": 2.7,
+      "glucides_g": 28,
+      "lipides_g": 0.3,
+      "fibres_g": 0.4,
+      "tags": ["glucides", "céréales"],
+      "allergenes": [],
+      "source": "USDA"
+    },
+    {
+      "name": "riz complet (cuit)",
+      "calories_per_100g": 112,
+      "proteines_g": 2.6,
+      "glucides_g": 24,
+      "lipides_g": 0.9,
+      "fibres_g": 1.8,
+      "tags": ["glucides", "céréales", "fibres"],
+      "allergenes": [],
+      "source": "USDA"
+    },
+    {
+      "name": "brocoli (cuit)",
+      "calories_per_100g": 35,
+      "proteines_g": 2.4,
+      "glucides_g": 7,
+      "lipides_g": 0.4,
+      "fibres_g": 3.3,
+      "tags": ["fibres", "vitamines", "légumes"],
+      "allergenes": [],
+      "source": "USDA"
+    },
+    {
+      "name": "saumon (cuit)",
+      "calories_per_100g": 206,
+      "proteines_g": 22,
+      "glucides_g": 0,
+      "lipides_g": 12,
+      "fibres_g": 0,
+      "tags": ["protéines", "oméga-3", "poisson"],
+      "allergenes": ["poisson"],
+      "source": "USDA"
+    },
+    {
+      "name": "œufs (entiers, cuits)",
+      "calories_per_100g": 155,
+      "proteines_g": 13,
+      "glucides_g": 1.1,
+      "lipides_g": 11,
+      "fibres_g": 0,
+      "tags": ["protéines", "lipides"],
+      "allergenes": ["œufs"],
+      "source": "USDA"
+    },
+    {
+      "name": "avoine (crue)",
+      "calories_per_100g": 389,
+      "proteines_g": 17,
+      "glucides_g": 66,
+      "lipides_g": 7,
+      "fibres_g": 11,
+      "tags": ["glucides", "fibres", "céréales"],
+      "allergenes": ["gluten"],
+      "source": "USDA"
+    },
+    {
+      "name": "banane",
+      "calories_per_100g": 89,
+      "proteines_g": 1.1,
+      "glucides_g": 23,
+      "lipides_g": 0.3,
+      "fibres_g": 2.6,
+      "tags": ["glucides", "fruits", "potassium"],
+      "allergenes": [],
+      "source": "USDA"
+    },
+    {
+      "name": "patate douce (cuite)",
+      "calories_per_100g": 90,
+      "proteines_g": 2,
+      "glucides_g": 21,
+      "lipides_g": 0.2,
+      "fibres_g": 3.3,
+      "tags": ["glucides", "fibres", "vitamines"],
+      "allergenes": [],
+      "source": "USDA"
+    },
+    {
+      "name": "amandes",
+      "calories_per_100g": 579,
+      "proteines_g": 21,
+      "glucides_g": 22,
+      "lipides_g": 50,
+      "fibres_g": 12,
+      "tags": ["protéines", "lipides", "fibres", "noix"],
+      "allergenes": ["fruits à coque"],
+      "source": "USDA"
+    },
+    {
+      "name": "yaourt grec nature (0% MG)",
+      "calories_per_100g": 59,
+      "proteines_g": 10,
+      "glucides_g": 3.6,
+      "lipides_g": 0.4,
+      "fibres_g": 0,
+      "tags": ["protéines", "probiotiques", "produits laitiers"],
+      "allergenes": ["lait"],
+      "source": "USDA"
+    },
+    {
+      "name": "thon (en conserve, au naturel)",
+      "calories_per_100g": 116,
+      "proteines_g": 26,
+      "glucides_g": 0,
+      "lipides_g": 0.8,
+      "fibres_g": 0,
+      "tags": ["protéines", "poisson", "faible en gras"],
+      "allergenes": ["poisson"],
+      "source": "USDA"
+    },
+    {
+      "name": "lentilles (cuites)",
+      "calories_per_100g": 116,
+      "proteines_g": 9,
+      "glucides_g": 20,
+      "lipides_g": 0.4,
+      "fibres_g": 8,
+      "tags": ["protéines", "glucides", "fibres", "légumineuses"],
+      "allergenes": [],
+      "source": "USDA"
+    },
+    {
+      "name": "quinoa (cuit)",
+      "calories_per_100g": 120,
+      "proteines_g": 4.4,
+      "glucides_g": 21,
+      "lipides_g": 1.9,
+      "fibres_g": 2.8,
+      "tags": ["glucides", "protéines", "céréales"],
+      "allergenes": [],
+      "source": "USDA"
+    },
+    {
+      "name": "épinards (cuits)",
+      "calories_per_100g": 23,
+      "proteines_g": 3,
+      "glucides_g": 3.8,
+      "lipides_g": 0.3,
+      "fibres_g": 2.4,
+      "tags": ["fibres", "vitamines", "légumes", "fer"],
+      "allergenes": [],
+      "source": "USDA"
+    },
+    {
+      "name": "bœuf (steak maigre, cuit)",
+      "calories_per_100g": 217,
+      "proteines_g": 29,
+      "glucides_g": 0,
+      "lipides_g": 10,
+      "fibres_g": 0,
+      "tags": ["protéines", "viande", "fer"],
+      "allergenes": [],
+      "source": "USDA"
+    },
+    {
+      "name": "pâtes complètes (cuites)",
+      "calories_per_100g": 124,
+      "proteines_g": 5,
+      "glucides_g": 26,
+      "lipides_g": 0.5,
+      "fibres_g": 3.2,
+      "tags": ["glucides", "fibres", "céréales"],
+      "allergenes": ["gluten"],
+      "source": "USDA"
+    },
+    {
+      "name": "fromage blanc (0% MG)",
+      "calories_per_100g": 72,
+      "proteines_g": 12,
+      "glucides_g": 5,
+      "lipides_g": 0.2,
+      "fibres_g": 0,
+      "tags": ["protéines", "produits laitiers"],
+      "allergenes": ["lait"],
+      "source": "USDA"
+    },
+    {
+      "name": "pomme",
+      "calories_per_100g": 52,
+      "proteines_g": 0.3,
+      "glucides_g": 14,
+      "lipides_g": 0.2,
+      "fibres_g": 2.4,
+      "tags": ["glucides", "fibres", "fruits"],
+      "allergenes": [],
+      "source": "USDA"
+    },
+    {
+      "name": "beurre d'arachide",
+      "calories_per_100g": 588,
+      "proteines_g": 25,
+      "glucides_g": 20,
+      "lipides_g": 50,
+      "fibres_g": 6,
+      "tags": ["protéines", "lipides", "noix"],
+      "allergenes": ["arachides"],
+      "source": "USDA"
+    },
+    {
+      "name": "tofu (ferme)",
+      "calories_per_100g": 144,
+      "proteines_g": 17,
+      "glucides_g": 2.8,
+      "lipides_g": 9,
+      "fibres_g": 2,
+      "tags": ["protéines", "végétarien", "soja"],
+      "allergenes": ["soja"],
+      "source": "USDA"
+    },
+    {
+      "name": "dinde (blanc, cuit)",
+      "calories_per_100g": 135,
+      "proteines_g": 30,
+      "glucides_g": 0,
+      "lipides_g": 0.7,
+      "fibres_g": 0,
+      "tags": ["protéines", "viande", "faible en gras"],
+      "allergenes": [],
+      "source": "USDA"
+    },
+    {
+      "name": "pain complet",
+      "calories_per_100g": 247,
+      "proteines_g": 13,
+      "glucides_g": 41,
+      "lipides_g": 3.4,
+      "fibres_g": 7,
+      "tags": ["glucides", "fibres", "céréales"],
+      "allergenes": ["gluten"],
+      "source": "USDA"
+    },
+    {
+      "name": "huile d'olive",
+      "calories_per_100g": 884,
+      "proteines_g": 0,
+      "glucides_g": 0,
+      "lipides_g": 100,
+      "fibres_g": 0,
+      "tags": ["lipides", "oméga-9"],
+      "allergenes": [],
+      "source": "USDA"
+    },
+    {
+      "name": "carottes (cuites)",
+      "calories_per_100g": 35,
+      "proteines_g": 0.8,
+      "glucides_g": 8,
+      "lipides_g": 0.2,
+      "fibres_g": 3,
+      "tags": ["glucides", "fibres", "légumes", "vitamine A"],
+      "allergenes": [],
+      "source": "USDA"
+    }
+  ],
+  "exercises": [
+    {
+      "name": "pompes",
+      "muscles": ["pectoraux", "triceps", "deltoïdes antérieurs"],
+      "difficulty": "intermédiaire",
+      "type": "force",
+      "equipement": "aucun",
+      "calories_per_min": 7
+    },
+    {
+      "name": "pompes (genoux)",
+      "muscles": ["pectoraux", "triceps"],
+      "difficulty": "débutant",
+      "type": "force",
+      "equipement": "aucun",
+      "calories_per_min": 5
+    },
+    {
+      "name": "squat",
+      "muscles": ["quadriceps", "fessiers", "ischio-jambiers"],
+      "difficulty": "débutant",
+      "type": "force",
+      "equipement": "aucun",
+      "calories_per_min": 8
+    },
+    {
+      "name": "squat avec haltères",
+      "muscles": ["quadriceps", "fessiers", "ischio-jambiers", "dos"],
+      "difficulty": "intermédiaire",
+      "type": "force",
+      "equipement": "haltères",
+      "calories_per_min": 10
+    },
+    {
+      "name": "planche",
+      "muscles": ["abdominaux", "dos", "épaules"],
+      "difficulty": "débutant",
+      "type": "gainage",
+      "equipement": "aucun",
+      "calories_per_min": 5
+    },
+    {
+      "name": "planche latérale",
+      "muscles": ["obliques", "abdominaux"],
+      "difficulty": "intermédiaire",
+      "type": "gainage",
+      "equipement": "aucun",
+      "calories_per_min": 6
+    },
+    {
+      "name": "fentes",
+      "muscles": ["quadriceps", "fessiers", "ischio-jambiers"],
+      "difficulty": "intermédiaire",
+      "type": "force",
+      "equipement": "aucun",
+      "calories_per_min": 7
+    },
+    {
+      "name": "burpees",
+      "muscles": ["corps entier", "pectoraux", "quadriceps"],
+      "difficulty": "avancé",
+      "type": "cardio",
+      "equipement": "aucun",
+      "calories_per_min": 10
+    },
+    {
+      "name": "mountain climbers",
+      "muscles": ["abdominaux", "épaules", "quadriceps"],
+      "difficulty": "intermédiaire",
+      "type": "cardio",
+      "equipement": "aucun",
+      "calories_per_min": 9
+    },
+    {
+      "name": "tractions (pull-ups)",
+      "muscles": ["dorsaux", "biceps", "avant-bras"],
+      "difficulty": "avancé",
+      "type": "force",
+      "equipement": "barre de traction",
+      "calories_per_min": 8
+    },
+    {
+      "name": "dips",
+      "muscles": ["triceps", "pectoraux", "deltoïdes"],
+      "difficulty": "intermédiaire",
+      "type": "force",
+      "equipement": "barres parallèles",
+      "calories_per_min": 8
+    },
+    {
+      "name": "crunchs",
+      "muscles": ["abdominaux"],
+      "difficulty": "débutant",
+      "type": "force",
+      "equipement": "aucun",
+      "calories_per_min": 4
+    },
+    {
+      "name": "jumping jacks",
+      "muscles": ["corps entier", "cardio"],
+      "difficulty": "débutant",
+      "type": "cardio",
+      "equipement": "aucun",
+      "calories_per_min": 8
+    },
+    {
+      "name": "course à pied (8 km/h)",
+      "muscles": ["quadriceps", "mollets", "fessiers", "cardio"],
+      "difficulty": "intermédiaire",
+      "type": "cardio",
+      "equipement": "aucun",
+      "calories_per_min": 11
+    },
+    {
+      "name": "marche rapide (6 km/h)",
+      "muscles": ["quadriceps", "mollets", "cardio"],
+      "difficulty": "débutant",
+      "type": "cardio",
+      "equipement": "aucun",
+      "calories_per_min": 5
+    },
+    {
+      "name": "vélo stationnaire (intensité modérée)",
+      "muscles": ["quadriceps", "mollets", "fessiers", "cardio"],
+      "difficulty": "débutant",
+      "type": "cardio",
+      "equipement": "vélo",
+      "calories_per_min": 7
+    },
+    {
+      "name": "rameur",
+      "muscles": ["dorsaux", "quadriceps", "biceps", "cardio"],
+      "difficulty": "intermédiaire",
+      "type": "cardio",
+      "equipement": "rameur",
+      "calories_per_min": 10
+    },
+    {
+      "name": "corde à sauter",
+      "muscles": ["mollets", "quadriceps", "épaules", "cardio"],
+      "difficulty": "intermédiaire",
+      "type": "cardio",
+      "equipement": "corde",
+      "calories_per_min": 12
+    },
+    {
+      "name": "développé couché (haltères)",
+      "muscles": ["pectoraux", "triceps", "deltoïdes"],
+      "difficulty": "intermédiaire",
+      "type": "force",
+      "equipement": "haltères + banc",
+      "calories_per_min": 6
+    },
+    {
+      "name": "soulevé de terre",
+      "muscles": ["dos", "fessiers", "ischio-jambiers", "trapèzes"],
+      "difficulty": "avancé",
+      "type": "force",
+      "equipement": "barre + poids",
+      "calories_per_min": 9
+    },
+    {
+      "name": "curl biceps (haltères)",
+      "muscles": ["biceps", "avant-bras"],
+      "difficulty": "débutant",
+      "type": "force",
+      "equipement": "haltères",
+      "calories_per_min": 4
+    },
+    {
+      "name": "élévations latérales",
+      "muscles": ["deltoïdes", "trapèzes"],
+      "difficulty": "débutant",
+      "type": "force",
+      "equipement": "haltères",
+      "calories_per_min": 4
+    },
+    {
+      "name": "extension triceps",
+      "muscles": ["triceps"],
+      "difficulty": "débutant",
+      "type": "force",
+      "equipement": "haltères",
+      "calories_per_min": 4
+    },
+    {
+      "name": "gainage superman",
+      "muscles": ["lombaires", "fessiers", "dos"],
+      "difficulty": "intermédiaire",
+      "type": "gainage",
+      "equipement": "aucun",
+      "calories_per_min": 5
+    },
+    {
+      "name": "russian twists",
+      "muscles": ["obliques", "abdominaux"],
+      "difficulty": "intermédiaire",
+      "type": "force",
+      "equipement": "aucun",
+      "calories_per_min": 6
+    },
+    {
+      "name": "step-ups",
+      "muscles": ["quadriceps", "fessiers"],
+      "difficulty": "débutant",
+      "type": "force",
+      "equipement": "marche ou box",
+      "calories_per_min": 7
+    },
+    {
+      "name": "yoga (hatha)",
+      "muscles": ["corps entier", "flexibilité"],
+      "difficulty": "débutant",
+      "type": "flexibilité",
+      "equipement": "tapis",
+      "calories_per_min": 3
+    },
+    {
+      "name": "stretching",
+      "muscles": ["corps entier", "flexibilité"],
+      "difficulty": "débutant",
+      "type": "flexibilité",
+      "equipement": "aucun",
+      "calories_per_min": 2
+    },
+    {
+      "name": "natation (crawl, rythme modéré)",
+      "muscles": ["corps entier", "épaules", "dorsaux"],
+      "difficulty": "intermédiaire",
+      "type": "cardio",
+      "equipement": "piscine",
+      "calories_per_min": 11
+    },
+    {
+      "name": "HIIT (high intensity)",
+      "muscles": ["corps entier"],
+      "difficulty": "avancé",
+      "type": "cardio",
+      "equipement": "variable",
+      "calories_per_min": 15
+    }
+  ]
+}
